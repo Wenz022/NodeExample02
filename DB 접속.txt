@@ -1,0 +1,9 @@
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+
+mySql -hlocalhost -uroot -p
+
+create database exercise;
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1234';
+
+show databases;
